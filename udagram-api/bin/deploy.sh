@@ -1,6 +1,4 @@
-eb init udagram-app --platform node.js --region us-east-1
-
-eb create --sample udagram-app-dev
+eb init 
 
 eb use udagram-app-dev
 
