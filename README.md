@@ -5,6 +5,8 @@
 - Link
   http://fullstack-udagram-app.s3-website-us-east-1.amazonaws.com
 
+[![CircleCI](https://circleci.com/gh/akilany/udagram/tree/main.svg?style=svg)](https://circleci.com/gh/akilany/udagram/tree/main)
+
 ## Project setup
 
 ### API

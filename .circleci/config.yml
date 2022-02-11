@@ -7,6 +7,11 @@ jobs:
   build:
     docker:
       - image: "cimg/base:stable"
+
+    filters:
+      branches:
+        only: /main\/.*/
+
     steps:
       - node/install:
           node-version: "16.13"
@@ -22,6 +27,10 @@ jobs:
           name: Front-End Build
           command: |
             npm run frontend:build
+      - run:
+          name: Front-End Test
+          command: |
+            npm run frontend:test
       - run:
           name: Back-End Install
           command: |
