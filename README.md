@@ -1,11 +1,11 @@
 # Udagram
 
+[![CircleCI](https://circleci.com/gh/akilany/udagram/tree/main.svg?style=svg)](https://circleci.com/gh/akilany/udagram/tree/main)
+
 [Udagram](http://fullstack-udagram-app.s3-website-us-east-1.amazonaws.com) is a simple Full-Stack application.
 
 - Link
   http://fullstack-udagram-app.s3-website-us-east-1.amazonaws.com
-
-[![CircleCI](https://circleci.com/gh/akilany/udagram/tree/main.svg?style=svg)](https://circleci.com/gh/akilany/udagram/tree/main)
 
 ## Project setup
 
